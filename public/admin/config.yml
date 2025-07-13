@@ -1,5 +1,8 @@
 backend:
-  name: myBackend
+  name: github
+  repo: bst-myoung/sansaido.github.io.git
+  branch: decap-cms
+  cms_label_prefix: decap-cms/
   commit_messages:
     create: Create {{collection}} “{{slug}}”
     update: Update {{collection}} “{{slug}}”
@@ -21,3 +24,4 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 media_folder: "src/assets/images" # Location where files will be stored in the repo
 public_folder: "src/assets/images" # The src attribute for uploaded media
+
