@@ -3,7 +3,7 @@ media:
   output: /media
 content:
   - name: docs
-    label: Documentation
+    label: Test
     type: collection
     path: src/docs
     filename: "{primary}.md"
